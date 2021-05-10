@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="wraper">
+        <div class="header">
+            <div class="container">
+                <div class="header_top">
+                    <div class="header_left">
+                        <ul class="header_left_menu">
+                            <li class="header_left_menu_item">
+                            <i class="fas fa-location-arrow"></i>Become an instructor
+                            </li>
+                            <li class="header_left_menu_item">
+                                <i class="fas fa-thumbtack"></i>For Enterprise
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="header_right">
+                        <ul class="header_right_menu">
+                            <li class="header_right_menu_item"><a href="">Home</a></li>
+                            <li class="header_right_menu_item"><a href="">About</a></li>
+                            <li class="header_right_menu_item"><a href="">Services</a></li>
+                            <li class="header_right_menu_item"><a href="">Case studies</a></li>
+                            <li class="header_right_menu_item"><a href="">Pages</a></li>
+                            <li class="header_right_menu_item"><a href="">Blog</a></li>
+                            <li class="header_right_menu_item"><a href="">Contact</a></li>
+                        </ul>
+                    </div>
+                    <label id="icon">
+                        <i class="fas fa-bars" onclick="on()"></i>
+                    </label>
+                    <div id="overlay"></div>
+                    <span id="close" onclick="off()" >&times;</span>
+                </div>
+                <div class="header_bottom">
+                    <div class="header_bottom_logo">
+                        <a href=""><h3>LOGO</h3></a>
+                    </div>
+                    <div class="header_bottom_right">
+                        <div class="header_bottom_right_icon">
+                            <a href="" class="facebook"><i class="fab fa-facebook-f"></i></a>
+                            <a href="" class="google-plus"><i class="fab fa-google-plus-g"></i></a>
+                            <a href="" class="twitter"><i class="fab fa-twitter"></i></a>
+                            <a href="" class="linkedin"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="" class="pinterest"><i class="fab fa-pinterest"></i></a>
+                        </div>
+                        <div class="header_bottom_right_search">
+                            <form action="">
+                                <select>
+                                    <option>Category</option>
+                                    <option>Product</option>
+                                </select>
+                                <input type="text" placeholder="Search Course">
+                                <a class="button_search"><i class="fa fa-search" aria-hidden="true"></i>
+                                </a>   
+                            </form>
+                        </div>
+                        <div class="header_bottom_right_login_register">
+                            <a><i class="fa fa-signal" aria-hidden="true"></i>
+                                LOGIN & REGISTER
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main">
+            <div class="slider">
+                <div class="slider_text">
+                    <div class="slider_text_1">
+                        <p>Education is the Most</p>
+                    </div>
+                    <div class="slider_text_2">
+                        <p>POWERFULL WEAPON</p>
+                    </div>
+                    <div class="slider_text_3">
+                        <i class="fas fa-arrow-right"></i><p>Competent Instructors & Lectures</p>
+                    </div>
+                    <div class="slider_text_4">
+                        <button>START ONLINE COURSES</button>
+                    </div>
+                </div>
+            </div>
+            <div class="service">
+                <div class="container service_container">
+                    <div class="service_elemt">
+                        <img src="./img/hinh3.png" alt="">
+                        <h3>Expand Knowledge</h3>
+                        <p>Lorem ipsum dolor sit amet, conse ct amet, conse adipiscing elit.</p>
+                    </div>
+                    <div class="service_elemt">
+                        <img src="./img/hinh4.png" alt="">
+                        <h3>Expand Knowledge</h3>
+                        <p>Lorem ipsum dolor sit amet, conse ct amet, conse adipiscing elit.</p>
+                    </div>
+                    <div class="service_elemt">
+                        <img src="./img/hinh5.png" alt="">
+                        <h3>Expand Knowledge</h3>
+                        <p>Lorem ipsum dolor sit amet, conse ct amet, conse adipiscing elit.</p>
+                    </div>
+                    <div class="service_elemt">
+                        <img src="./img/hinh6.png" alt="">
+                        <h3>Expand Knowledge</h3>
+                        <p>Lorem ipsum dolor sit amet, conse ct amet, conse adipiscing elit.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="course">
+                <div class="container container_course">
+                    <div class="course_content">
+                        <div class="course_header">
+                            <img src="./img/hinh8.png" alt="">
+                            <h3>Featured Courses</h3>
+                            <p>Films can shape the destiny of talented youngsters, Courses</p>
+                        </div>
+                        <div class="course_content_middle">
+                            <div class="course_content_middle_item">
+                                <img src="./img/hinh7.png" alt="">
+                                <p class="price">$85</p>
+                                <div class="course_content_detail">
+                                    <div class="rating">
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                    </div>
+                                    <h3>Design Instruments for Communication</h3>
+                                    <p>Lorem ipsum dolor sit amet, cons adip nas nibh dolor, m lorime uilimes nsect nas nibh dilimes nsecteturs elit.</p>
+                                </div>
+                                <div class="course_content_footer">
+                                    <img src="img/hinh9.png" alt="">
+                                    <div class="course_content_footer_icon">
+                                        <i class="fas fa-align-left"></i><p>6 lectures</p>
+                                        <i class="far fa-clock"></i><p>6 Hourse</p>
+                                        <a href=""><i class="far fa-heart"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="course_content_middle_item">
+                                <img src="./img/hinh7.png" alt="">
+                                <p class="price">$85</p>
+                                <div class="course_content_detail">
+                                    <div class="rating">
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                    </div>
+                                    <h3>Course With Student Capacity</h3>
+                                    <p>Lorem ipsum dolor sit amet, cons adip nas nibh dolor, m lorime uilimes nsect nas nibh dilimes nsecteturs elit.</p>
+                                </div>
+                                <div class="course_content_footer">
+                                    <img src="img/hinh9.png" alt="">
+                                    <div class="course_content_footer_icon">
+                                        <i class="fas fa-align-left"></i><p>6 lectures</p>
+                                        <i class="far fa-clock"></i><p>6 Hourse</p>
+                                        <a href=""><i class="far fa-heart"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="course_content_middle_item">
+                                <img src="./img/hinh7.png" alt="">
+                                <p class="price">$85</p>
+                                <div class="course_content_detail">
+                                    <div class="rating">
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                    </div>
+                                    <h3>3 types of membership Packages</h3>
+                                    <p>Lorem ipsum dolor sit amet, cons adip nas nibh dolor, m lorime uilimes nsect nas nibh dilimes nsecteturs elit.</p>
+                                </div>
+                                <div class="course_content_footer">
+                                    <img src="img/hinh9.png" alt="">
+                                    <div class="course_content_footer_icon">
+                                        <i class="fas fa-align-left"></i><p>6 lectures</p>
+                                        <i class="far fa-clock"></i><p>6 Hourse</p>
+                                        <a href=""><i class="far fa-heart"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="transform">
+                <div class="container container_transform">
+                    <div class="transform_text">
+                        <h3>Transform Your self to Transform Society</h3>
+                        <p>volupatas sit aspernatur odit aut fugit, sed quias consequuntur magni dolores eos qui ratione volust luptatem sequi nesciunt.</p>
+                    </div>
+                    <div class="transform_section">
+                        <img src="./img/hinh10.png" alt="">
+                        <p>artistic</p>
+                        <a href="">8 course</a>
+                    </div>
+                    <div class="transform_section">
+                        <img src="./img/hinh10.png" alt="">
+                        <p>artistic</p>
+                        <a href="">8 course</a>
+                    </div>
+                    <div class="transform_section section_2">
+                        <img src="./img/hinh10.png" alt="">
+                        <p>artistic</p>
+                        <a href="">8 course</a>
+                    </div>
+                    <div class="transform_section">
+                        <img src="./img/hinh10.png" alt="">
+                        <p>artistic</p>
+                        <a href="">8 course</a>
+                    </div>
+                    <div class="transform_section">
+                        <img src="./img/hinh10.png" alt="">
+                        <p>artistic</p>
+                        <a href="">8 course</a>
+                    </div>
+                    <div class="transform_section">
+                        <img src="./img/hinh10.png" alt="">
+                        <p>artistic</p>
+                        <a href="">8 course</a>
+                    </div>
+                    <div class="clear">
+
+                    </div>
+                    <div class="subcribe">
+                        <div class="subcribe_footer">
+                            <img src="./img/hinh12.png" alt="">
+                            <h3>Subscribe to our Newsletter</h3>
+                            <p>subcribe newsletter and get updates and notification.</p>
+                        </div>
+                        <div class="subcribe_email">
+                            <form action="">
+                                <input type="text" placeholder="Enter Your Email Address">
+                                <button>SUBSCRIBE</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="testtimo">
+                <div class="testtimo_left">
+                   <div class="testtimo_left_top">
+                    <h3>Client's Testimonials</h3>
+                        <i class="fa fa-quote-left" aria-hidden="true"></i>
+                        <p class="slide">The others comfortable these days are all happy and free list now the world not move to the beat of just one drum what be right for you may not be story of a man 1</p>
+                        <p class="slide">The others comfortable these days are all happy and free list now the world not move to the beat of just one drum what be right for you may not be story of a man 2</p>
+                        <p class="slide">The others comfortable these days are all happy and free list now the world not move to the beat of just one drum what be right for you may not be story of a man 3</p>
+                   </div>
+                    <div class="testtimo_left_middle">
+                        <div class="testtimo_left_middle_1 mySlides">
+                            <img src="./img/hinh13.png" alt="">
+                            <div class="testtimo_left_middle_1_text">
+                                <h3>Lophie James</h3>
+                                <p>Graphic Designer</p>
+                            </div>
+                        </div>
+                        <div class="testtimo_left_middle_1 mySlides">
+                            <img src="./img/hinh14.png" alt="">
+                            <div class="testtimo_left_middle_1_text">
+                                <h3>Lophie Meter</h3>
+                                <p>Dev Ruby</p>
+                            </div>
+                        </div>
+                        <div class="testtimo_left_middle_1 mySlides">
+                            <img src="./img/hinh15.png" alt="">
+                            <div class="testtimo_left_middle_1_text">
+                                <h3>James Master</h3>
+                                <p>Dev PHP</p>
+                            </div>
+                        </div>
+                        <div class="testtimo_left_middle_2">
+                            <img src="./img/hinh13.png" alt="" class="img_slide">
+                            <img src="./img/hinh14.png" alt="" class="img_slide">
+                            <img src="./img/hinh15.png" alt="" class="img_slide">
+                            <img src="./img/hinh16.png" alt="" class="img_slide">
+                        </div>
+                    </div>
+                    <div class="testtimo_left_bottom">
+                        <button onclick="plusDivs(1)"><i class="fa fa-arrow-left" aria-hidden="true"></i>Prev Review</button>
+                        <button onclick="plusDivs(1)" class="next_review">Next Review<i class="fa fa-arrow-right" aria-hidden="true"></i></button>
+                    </div>
+                </div>
+                <div class="testtimo_right">
+                    <div class="testtimo_right_content">
+                        <div class="testtimo_right_content_text">
+                            <img src="./img/hinh18.png" alt="">
+                            <div class="testtimo_right_content_text_char">
+                                <h3>Worldwide Recognize</h3>
+                                <p>The others comfortable these are all happy be right for you may not be story of a man</p>
+                            </div>
+                        </div>
+                        <div class="testtimo_right_content_text">
+                            <img src="./img/hinh19.png" alt="">
+                            <div class="testtimo_right_content_text_char">
+                                <h3>Mostly Online Learning(sd)</h3>
+                                <p>The others comfortable these days are all happy be right for you may not be story of a man</p>
+                            </div>
+                        </div>
+                        <div class="testtimo_right_content_text">
+                            <img src="./img/hinh20.png" alt="">
+                            <div class="testtimo_right_content_text_char">
+                                <h3>Graduate in as little as 1 Year</h3>
+                                <p>The others comfortable these days are all happy be right for you may not be story of a man</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="recent_course">
+                <div class="container container_recent_course">
+                    <div class="recent_course_content">
+                        <div class="recent_course_header">
+                            <img src="./img/hinh8.png" alt="">
+                            <h3>Recent Courses</h3>
+                            <p>Films can shape the destiny of talented youngsters, Courses</p>
+                            <div class="recent_course_header_menu">
+                                <ul>
+                                    <li><button onclick="openCourse('all')"><i class="fa fa-plus" aria-hidden="true"></i>All Categories</button></li>
+                                    <li><button onclick="openCourse('art')"><i class="fas fa-edit"></i>Art</button></li>
+                                    <li><button onclick="openCourse('exercise')"><i class="fas fa-eraser"></i>Exercise</button></li>
+                                    <li><button onclick="openCourse('material')"><i class="fas fa-pencil-ruler"></i>Material Design</button></li>
+                                    <li><button onclick="openCourse('music')"><i class="fas fa-music"></i>Music</button></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="recent_course_middle">
+                            <div class="recent_course_content_middle_item recent_courses all music" id="art">
+                                <img src="./img/hinh7.png" alt="">
+                                <p class="price">$85</p>
+                                <div class="recent_course_content_detail">
+                                    <div class="rating">
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                    </div>
+                                    <h3>Class online courses and learning</h3>
+                                    <p>Lorem ipsum dolor sit amet, cons adip nas nibh dolor, m lorime uilimes nsect nas nibh dilimes nsecteturs elit.</p>
+                                </div>
+                                <div class="recent_course_content_footer">
+                                    <img src="img/hinh9.png" alt="">
+                                    <div class="recent_course_content_footer_icon">
+                                        <i class="fas fa-align-left"></i><p>6 lectures</p>
+                                        <i class="far fa-clock"></i><p>6 Hourse</p>
+                                        <a href=""><i class="far fa-heart"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="recent_course_content_middle_item recent_courses all art" id="exercise">
+                                <img src="./img/hinh7.png" alt="">
+                                <p class="price">$85</p>
+                                <div class="recent_course_content_detail">
+                                    <div class="rating">
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                    </div>
+                                    <h3>Class online courses and learning</h3>
+                                    <p>Lorem ipsum dolor sit amet, cons adip nas nibh dolor, m lorime uilimes nsect nas nibh dilimes nsecteturs elit.</p>
+                                </div>
+                                <div class="recent_course_content_footer">
+                                    <img src="img/hinh9.png" alt="">
+                                    <div class="recent_course_content_footer_icon">
+                                        <i class="fas fa-align-left"></i><p>6 lectures</p>
+                                        <i class="far fa-clock"></i><p>6 Hourse</p>
+                                        <a href=""><i class="far fa-heart"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="recent_course_content_middle_item recent_courses all art" id="material">
+                                <img src="./img/hinh7.png" alt="">
+                                <p class="price">$85</p>
+                                <div class="recent_course_content_detail">
+                                    <div class="rating">
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                    </div>
+                                    <h3>Class online courses and learning</h3>
+                                    <p>Lorem ipsum dolor sit amet, cons adip nas nibh dolor, m lorime uilimes nsect nas nibh dilimes nsecteturs elit.</p>
+                                </div>
+                                <div class="recent_course_content_footer">
+                                    <img src="img/hinh9.png" alt="">
+                                    <div class="recent_course_content_footer_icon">
+                                        <i class="fas fa-align-left"></i><p>6 lectures</p>
+                                        <i class="far fa-clock"></i><p>6 Hourse</p>
+                                        <a href=""><i class="far fa-heart"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="recent_course_content_middle_item recent_courses all music" id="art">
+                                <img src="./img/hinh7.png" alt="">
+                                <p class="price">$85</p>
+                                <div class="recent_course_content_detail">
+                                    <div class="rating">
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                    </div>
+                                    <h3>Class online courses and learning</h3>
+                                    <p>Lorem ipsum dolor sit amet, cons adip nas nibh dolor, m lorime uilimes nsect nas nibh dilimes nsecteturs elit.</p>
+                                </div>
+                                <div class="recent_course_content_footer">
+                                    <img src="img/hinh9.png" alt="">
+                                    <div class="recent_course_content_footer_icon">
+                                        <i class="fas fa-align-left"></i><p>6 lectures</p>
+                                        <i class="far fa-clock"></i><p>6 Hourse</p>
+                                        <a href=""><i class="far fa-heart"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="recent_course_content_middle_item recent_courses all material" id="music">
+                                <img src="./img/hinh7.png" alt="">
+                                <p class="price">$85</p>
+                                <div class="recent_course_content_detail">
+                                    <div class="rating">
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                    </div>
+                                    <h3>Class online courses and learning</h3>
+                                    <p>Lorem ipsum dolor sit amet, cons adip nas nibh dolor, m lorime uilimes nsect nas nibh dilimes nsecteturs elit.</p>
+                                </div>
+                                <div class="recent_course_content_footer">
+                                    <img src="img/hinh9.png" alt="">
+                                    <div class="recent_course_content_footer_icon">
+                                        <i class="fas fa-align-left"></i><p>6 lectures</p>
+                                        <i class="far fa-clock"></i><p>6 Hourse</p>
+                                        <a href=""><i class="far fa-heart"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="recent_course_content_middle_item recent_courses all exercise" id="art">
+                                <img src="./img/hinh7.png" alt="">
+                                <p class="price">$85</p>
+                                <div class="recent_course_content_detail">
+                                    <div class="rating">
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                    </div>
+                                    <h3>Class online courses and learning</h3>
+                                    <p>Lorem ipsum dolor sit amet, cons adip nas nibh dolor, m lorime uilimes nsect nas nibh dilimes nsecteturs elit.</p>
+                                </div>
+                                <div class="recent_course_content_footer">
+                                    <img src="img/hinh9.png" alt="">
+                                    <div class="recent_course_content_footer_icon">
+                                        <i class="fas fa-align-left"></i><p>6 lectures</p>
+                                        <i class="far fa-clock"></i><p>6 Hourse</p>
+                                        <a href=""><i class="far fa-heart"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="clear">
+
+                            </div>
+                        </div>
+                        <div class="recent_course_footer">
+                            <button>VIEW OUR BLOG</button>
+                        </div>
+                        <div class="clear">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="clear">
+
+            </div>
+            <div class="main_footer">
+                <div class="container main_footer_container">
+                    <div class="provide">
+                        <h3><span>Provides</span> the best Platform <span class="for_education">for your Education</span></h3>
+                        <p>The pie and we know flipper lives in a worl the clouds away</p>
+                        <button>GET THE MOST OF IT NOW.</button>
+                    </div>
+                    <div class="instructor">
+                        <div class="instructor_content">
+                            <div class="instructor_content_item">
+                                <img src="./img/hinh22.png" alt="">
+                                <h3>Become an Instructor</h3>
+                                <p>Lorem ipsum dolor sit amet, cons adip nas bibh dolor <span>nas nibh dilimes nsectetur elit.</span></p>
+                                <button>START TEACHING</button>
+                            </div>
+                            <div class="instructor_content_item">
+                                <img src="./img/hinh23.png" alt="">
+                                <h3>Grow your Business</h3>
+                                <p>Lorem ipsum dolor sit amet, cons adip nas bibh dolor <span>nas nibh dilimes nsectetur elit.</span></p>
+                                <button>START TEACHING</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="container">
+                <div class="footer_content">
+                    <div class="about">
+                        <h3>Logo</h3>
+                        <p class="logo_text">
+                            Loren ipsum dolor sit amet consetuer dipiscing elit diam uismod tincidunt Loren ipsum dolor t diam uismod Lorem tincidunt Lorem ipsutincidunt tincidunt.
+                        </p>
+                        <div class="address">
+                            <p><span>Tell:</span> +1212 458 300 32</p>
+                            <p><span>Fax:</span> +1212 375 24 14</p>
+                            <p><span>Street New York E Block 1122 Block 89 USA</span></p>
+                        </div>
+                    </div>
+                    <div class="usefull_link">
+                        <h3>Useful Links</h3>
+                        <ul>
+                            <li>Online learning</li>
+                            <li>Dance school</li>
+                            <li>Academy Awards</li>
+                            <li>Points System</li>
+                            <li>One Instrumental</li>
+                        </ul>
+                    </div>
+                    <div class="category">
+                        <h3>Categories</h3>
+                        <ul class="columns" data-columns="2">
+                            <li>Medicine</li>
+                            <li>Middle Eastern</li>
+                            <li>Music</li>
+                            <li>Nursing</li>
+                            <li>Food Science</li>
+                            <li>Optometry</li>
+                            <li>Pharmacology</li>
+                            <li>Philosophy</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="coppy_right">
+                    <div class="coppy_right_text">
+                        <p><span class="education">Education</span> - Copyright 2018 . Design by <span class="themex">Themextic</span></p>
+                    </div>
+                    <div class="coppy_right_icon">
+                        <a href="" class="facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="" class="google-plus"><i class="fab fa-google-plus-g"></i></a>
+                        <a href="" class="twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="" class="linkedin"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="" class="pinterest"><i class="fab fa-pinterest"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
+
+<script>
+    (function($){
+        var initialContainer = $('.columns'),
+            columnItems = $('.columns li'),
+            columns = null,
+            column = 1; // account for initial column
+        function updateColumns(){
+            column = 0;
+            columnItems.each(function(idx, el){
+                if (idx !== 0 && idx > (columnItems.length / columns.length) + (column * idx)){
+                    column += 1;
+                }
+                $(columns.get(column)).append(el);
+            });
+        }
+        function setupColumns(){
+            columnItems.detach();
+            while (column++ < initialContainer.data('columns')){
+                initialContainer.clone().insertBefore(initialContainer);
+                column++;
+            }
+            columns = $('.columns');
+            updateColumns();
+        }
+
+        $(setupColumns);
+    })(jQuery);
+
+    var slideIndex = 1;
+    showDivs(slideIndex);
+
+    function plusDivs(n) {
+    showDivs(slideIndex += n);
+    }
+
+    function showDivs(n) {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    var y = document.getElementsByClassName("slide");
+    var z = document.getElementsByClassName("img_slide");
+    if (n > x.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = x.length}
+    for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+        y[i].style.display = "none";
+        z[i].style.display = "inline-flex";
+    }
+        x[slideIndex-1].style.display = "flex";  
+        y[slideIndex-1].style.display = "block";
+        z[slideIndex-1].style.display = "none";
+    }
+
+    function openCourse(course) {
+        var i;
+        var x = document.getElementsByClassName("recent_courses");
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+        }
+        $('.recent_course_middle .'+course).css('display','block');
+    }
+    $( ".recent_course_header_menu ul li button" ).click(function() {
+        var t = $(".recent_course_header_menu ul li button");
+        for(i = 0; i < t.length; i ++) {
+            $('.recent_course_header_menu ul li button').removeClass('click_hover')
+            $('.recent_course_header_menu ul li button').css('color','unset')
+        }
+        $(this).addClass('click_hover');
+        $(this).css('color','#ebdfc1');
+    });
+
+    function on() {
+        document.getElementById("overlay").style.width = '100%';
+        document.getElementById("icon").style.display = "none";
+        document.getElementById('close').style.display = "block";
+        document.getElementsByClassName('header_bottom_right').style.display = "block";
+        // document.getElementsByClassName('header_right').css('left', 0)
+        // var x = document.getElementsByClassName('header_right');
+        // console.log(x);
+    }
+
+    function off() {
+        document.getElementById("overlay").style.width = '0px';
+        document.getElementById('close').style.display = "none";
+        document.getElementById("icon").style.display = "block";
+        document.getElementsByClassName('header_bottom_right').style.display = "none";
+        // $('#overlay').toggleClass('hiden');
+    }
+    $('#icon').click(function(){
+        // $(".header_top").toggleClass("nav-mobie");
+        // $('#overlay').toggleClass('show');
+        // $('#overlay').removeClass('hidden');
+        $('.header_right').css('left',0);
+        $('.header_bottom_right_icon').css('left',0);
+        $('.header_bottom_right_search').css('left',0);
+        $('.header_bottom_right_login_register').css('left',0);
+        // $('.header_bottom_right_login_register').toggleClass('show');
+    });
+
+    $('#close').click(function(){
+        $('.header_right').css('left', -10000);
+        $('.header_bottom_right_icon').css('left',-10000);
+        $('.header_bottom_right_search').css('left',-10000);
+        $('.header_bottom_right_login_register').css('left',-10000);
+    });
+</script>
